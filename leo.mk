@@ -53,6 +53,10 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
    ro.secure=0\
    ro.adb.secure=0\
 
+# Thermal manager
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
+
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 # Include non-opensource parts
