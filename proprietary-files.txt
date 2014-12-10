@@ -72,6 +72,11 @@ etc/firmware/modem.b23
 etc/firmware/modem.b24
 etc/firmware/modem.b25
 etc/firmware/modem.mdt
+etc/firmware/mba.b00
+etc/firmware/mba.mdt
+
+lib/libril.so
+lib/librilutils.so
 
 # NFC
 etc/libnfc-nxp.conf
