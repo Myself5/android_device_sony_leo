@@ -48,11 +48,6 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
    $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
-# Default.prop overrides. Remove these when boot is successful. 
-ADDITIONAL_DEFAULT_PROPERTIES += \
-   ro.secure=0\
-   ro.adb.secure=0\
-
 # Thermal manager
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
