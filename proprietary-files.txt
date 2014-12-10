@@ -71,7 +71,6 @@ etc/firmware/modem.b22
 etc/firmware/modem.b23
 etc/firmware/modem.b24
 etc/firmware/modem.b25
-etc/firmware/modem.b25
 etc/firmware/modem.mdt
 
 # NFC
