@@ -19,7 +19,6 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 #-include vendor/sony/sirius/BoardConfigVendor.mk
 
 # Assert
-#TARGET_OTA_ASSERT_DEVICE := D6502,D6503,D6506,D6543,sirius
 TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6606,D6643,leo
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/leo/include
